@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+}
+
+a:link {
+  outline-color: white;
+  color: white;
+}
+
+a:visited {
+  outline-color: white;
+  color: white;
+}
+
+.main {
+  font-family: 'Calibri';
+  margin-top: 70px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.main2 {
+  font-family: 'Calibri';
+  margin-top: 30px;
+  width: 50%;
+  text-align: left;
+}
+
+#nav_bar {
+  background: #0a2138;
+  color: white;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  text-align: right;
+}
+
+.nav_item {
+  font-family: 'Tahoma';
+  font-size: 14px;
+  display: inline;
+  width: 300px;
+  padding: 20px;
+
+}
+
+#nav_title{
+  font-family: 'Press Start 2P',cursive;
+  display: inline;
+  float:left;
+  text-align: center;
+  font-size: 15px;
+  padding: 18px;
+  width: 300px;
+}
+
+.nav_item:hover {
+  background: #1e5d9c;
+  cursor: pointer;
+}
+
+#main_img {
+  height: 250px;
+  width:auto;
+  float: left;
+  margin: 20px;
+}
+
+#playlist {
+  display: inline-block;
+  position: fixed;
+  float: top;
+  
+  width: 300px;
+
+  
+  
+}
+
+#bottom-bar {
+  background: #0a2138;
+  color: white;
+  padding: 1px;
+  position: bottom;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+}
+
+.bottom {
+  display: inline;
+  width: 300px;
+  padding: 20px;
+
+}
+
+.bottom:hover {
+  background: #1e5d9c;
+  cursor: pointer;
+}
